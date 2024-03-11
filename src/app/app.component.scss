@@ -1,0 +1,21 @@
+.navigator{
+    position: fixed;
+    bottom: 3rem;
+    
+    display: flex;
+    gap: 3rem;
+    align-self: center;
+
+    background-color: #44475A;
+
+    padding: 2rem;
+    border-radius: 4rem;
+
+    right: 50%;
+    transform: translateX(+50%);
+
+    svg{
+        width: 3rem;
+        cursor: pointer;
+    }
+}

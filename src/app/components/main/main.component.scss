@@ -1,0 +1,61 @@
+.hero{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+    .image{
+        width: 30rem;
+        border-radius: 30rem;
+        aspect-ratio: 4 / 4;
+        object-fit: cover;
+    }
+
+    .nameContainer{
+        display: flex;
+        flex-direction: column;
+
+        color: white;
+
+        span{
+            font-size: 3.2rem;
+        }
+
+        .comment{
+            color: #6272A4;
+            font-size: 2.8rem;
+        }
+
+        .htmlTag{
+            color: #FF79C6;
+        }
+
+        .reservedWord{
+            color: #50FA7B;
+        }
+
+        .string{
+            color: #F1FA8C;
+        }
+
+        .name{
+            font-size: 4.2rem;
+            margin-left: 4rem;
+        }
+
+        .socialMedias{
+            margin-top: 1rem;
+            display: flex;
+            gap: 1rem;
+        }
+
+        svg{
+            width: 3rem;
+            color: #6272A4;
+        }
+    }
+
+}
