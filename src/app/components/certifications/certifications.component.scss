@@ -1,0 +1,22 @@
+img{
+    width: 30rem;
+}
+
+.certifications{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    .badge{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        font-size: 3rem;
+        text-decoration: underline;
+        align-items: center;
+    }
+}
