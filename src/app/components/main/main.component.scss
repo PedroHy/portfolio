@@ -172,3 +172,30 @@
     }
 
 }
+
+@media (max-width: 760px) {
+
+    .hero{
+        height: auto;
+        padding: 5rem;
+
+        .content{
+            position: relative;
+        }
+        .nameContainer{
+    
+            .name{
+    
+                &::before{
+                    content: "Pedro Henrique Ribeiro";
+                }
+    
+                &::after{
+                    display: none;
+                }
+            }
+        }
+    }
+
+
+}

@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-*{
+* {
     margin: 0;
     padding: 0;
 
@@ -11,7 +11,17 @@
     color: white;
 }
 
-body{
+body {
     background-color: #282A36;
     overflow: hidden;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+@media (max-width: 850px) {
+    * {
+        font-size: 50%;
+    }
+
 }
