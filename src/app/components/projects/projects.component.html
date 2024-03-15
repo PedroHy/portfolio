@@ -5,18 +5,20 @@
     <div class="grid">
 
         @for(project of projects; track project.title){
-            <div class="projectCard">
-                <div class="img">
-                    <div class="overlay"></div>
-                    <video muted loop autoPlay >
-                        <source src={{project.video}} type="video/mp4"/>
-                    </video>
+            <a target="_blank" href={{project.link}}>
+                <div class="projectCard">
+                    <div class="img">
+                        <div class="overlay"></div>
+                        <video muted loop autoPlay >
+                            <source src={{project.video}} type="video/mp4"/>
+                        </video>
+                    </div>
+                    <div class="infos">
+                        <span class="projectTitle">{{project.title}}</span>
+                        <span class="techs">{{project.techs}}</span>
+                    </div>
                 </div>
-                <div class="infos">
-                    <span class="projectTitle">{{project.title}}</span>
-                    <span class="techs">{{project.techs}}</span>
-                </div>
-            </div>
+            </a>
         }
 
         
