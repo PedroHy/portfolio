@@ -25,7 +25,7 @@ const projects = [
         "description": "basicamente o EcoEletro consiste em uma aplicação WEB onde um usuario pode vizualizar pontos de de descarte de lixo eletrônico mais próximo dele, e uma empresa ou local que deseja ser um ponto de coleta pode se cadastrar e adicionar o seu endereço no site. Esse projeto foi útil para aprender sobre como funciona um fluxo de autenticação e rotas seguras no Angular.",
         "techs": "Angular, Firebase, Tailwind",
         "img": "",
-        "video": ""
+        "video": "../../../assets/api/videos/ecoeletro.mp4"
     },
     {
         "title": "Pizzaria",
